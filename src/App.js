@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import TextEditor from './TextEditor';
+import RichEditor from './RichEditor';
 
 class App extends Component {
   componentDidMount() {
@@ -14,7 +14,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        <TextEditor />
+        <RichEditor />
       </div>
     );
   }
